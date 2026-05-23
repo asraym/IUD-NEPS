@@ -212,8 +212,10 @@ SCENARIOS = {...}              # add or modify simulation corridors
 
 This project is based on independent research conducted by Ashish Raymajhi at Sharda University.
 
-Associated unpublished manuscript:
+Associated unpublished research manuscript:
 "Integrated Urban Dynamics and Neighbourhood Evolution Prediction System Using Multi-Layer Spatial-Temporal Analytics"
+
+[📄 Read the full paper](docs/IUD_NEPS%20research.pdf)
 
 ### Contributors
 
