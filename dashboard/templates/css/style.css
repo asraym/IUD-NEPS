@@ -1,0 +1,62 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #f8fafc; color: #1e293b; }
+
+/* Map */
+#map { width: 100%; height: 100%; }
+.leaflet-container { background: #e2e8f0; }
+
+/* Tabs */
+.tab-btn { transition: all 0.2s; }
+.tab-btn.active { background: #1e293b; color: #fff; }
+
+/* Trajectory badges */
+.badge-Accelerating { background: #dcfce7; color: #15803d; }
+.badge-Emerging     { background: #dbeafe; color: #1d4ed8; }
+.badge-Stable       { background: #f1f5f9; color: #475569; }
+.badge-Declining    { background: #fee2e2; color: #b91c1c; }
+
+/* Valuation badges */
+.badge-Undervalued     { background: #d1fae5; color: #065f46; }
+.badge-Overvalued      { background: #fce7f3; color: #9d174d; }
+.badge-FairlyValued    { background: #e0f2fe; color: #0369a1; }
+
+/* Side panel slide */
+#side-panel {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateX(100%);
+  opacity: 0;
+}
+#side-panel.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Price labels on map */
+.price-label {
+  background: rgba(255,255,255,0.92);
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #1e293b;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Basemap toggle */
+.basemap-btn { transition: all 0.2s; }
+.basemap-btn.active { background: #1e293b; color: white; }
+
+/* Stat cards */
+.stat-card { transition: transform 0.2s; }
+.stat-card:hover { transform: translateY(-2px); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 2px; }
+
+/* Scenario button */
+.sc-btn { transition: all 0.2s; }
+.sc-btn.selected { background: #f8fafc; }

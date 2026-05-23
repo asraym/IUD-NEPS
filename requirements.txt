@@ -1,0 +1,34 @@
+# IUD-NEPS Requirements
+# Python 3.12 compatible — no pinned versions, installs latest stable
+# Install with: py -3.12 -m pip install -r requirements.txt
+
+# Geospatial
+osmnx
+geopandas
+shapely
+pyproj
+fiona
+
+# Data
+pandas
+numpy
+scipy
+pyarrow
+
+# Machine Learning
+xgboost
+lightgbm
+scikit-learn
+shap
+
+# Visualisation
+folium
+plotly
+streamlit
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+networkx
+requests
