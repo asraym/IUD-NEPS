@@ -19,6 +19,14 @@ It then classifies each cell into one of four trajectories — **Accelerating**,
 
 ---
 
+## Tech Stack
+
+- Python, GeoPandas, OSMnx, Rasterio
+- XGBoost, LightGBM, SHAP
+- Leaflet.js, Chart.js
+- Spatial indexing + GeoJSON pipelines
+- OpenStreetMap + Census + AQI datasets
+
 ## Dashboard
 
 ### Growth Potential
@@ -199,27 +207,27 @@ SCENARIOS = {...}              # add or modify simulation corridors
 
 ---
 
-## Research Paper
  
-This project is the implementation of my research paper:
- 
-> Raymajhi, A. &  Rai, D (2026). *Integrated Urban Dynamics and Neighbourhood Evolution Prediction System Using Multi-Layer Spatial-Temporal Analytics*. Sharda University.
- 
-This codebase extends and improves upon the original paper:
+## Research Background
+
+This project is based on independent research conducted by Ashish Raymajhi at Sharda University.
+
+Associated unpublished manuscript:
+"Integrated Urban Dynamics and Neighbourhood Evolution Prediction System Using Multi-Layer Spatial-Temporal Analytics"
+
+### Contributors
+
+**Ashish Raymajhi** (Lead Author) — [raymajhiashish@gmail.com](mailto:raymajhiashish@gmail.com)
+
+**Dhruv Rai** (Co-author) — [raidhruv199@gmail.com](mailto:raidhruv199@gmail.com)
+
+This codebase extends and improves upon the original research:
 - R² improved from 0.67 to 0.85
 - Percentile-based trajectory classification (fixes 92%-stable problem)
-- Dual scoring system (potential + livability)
-- Airport proximity and AQI as new features
-- Realistic 3-zone scenario simulation with spillover effects
----
- 
-## Authors
- 
-**Ashish Raymajhi** (Lead) — [raymajhiashish@gmail.com](mailto:raymajhiashish@gmail.com)
-**Dhruv Rai** (Co-author) — [raidhruv199@gmail.com](mailto:raidhruv199@gmail.com)
- 
-Sharda University, Uttar Pradesh, India
- 
+- Dual scoring system (growth potential + livability)
+- Airport proximity and AQI introduced as new features
+- Realistic 3-zone infrastructure simulation with spillover effects
+
 ---
  
 ## License
