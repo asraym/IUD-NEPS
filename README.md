@@ -199,31 +199,29 @@ SCENARIOS = {...}              # add or modify simulation corridors
 
 ---
 
-## Paper
-
-This project extends and improves upon:
-
-> Raymajhi, A., Rai, D., & Kumar, D. (2026). *Integrated Urban Dynamics and Neighbourhood Evolution Prediction System Using Multi-Layer Spatial-Temporal Analytics*. Sharda University.
-
-Key improvements over the paper:
+## Research Paper
+ 
+This project is the implementation of my research paper:
+ 
+> Raymajhi, A. &  Rai, D (2026). *Integrated Urban Dynamics and Neighbourhood Evolution Prediction System Using Multi-Layer Spatial-Temporal Analytics*. Sharda University.
+ 
+This codebase extends and improves upon the original paper:
 - R² improved from 0.67 to 0.85
 - Percentile-based trajectory classification (fixes 92%-stable problem)
 - Dual scoring system (potential + livability)
 - Airport proximity and AQI as new features
 - Realistic 3-zone scenario simulation with spillover effects
-
 ---
-
+ 
 ## Authors
-
-**Ashish Raymajhi** — [raymajhiashish@gmail.com](mailto:raymajhiashish@gmail.com)
-**Dhruv Rai** — [raidhruv199@gmail.com](mailto:raidhruv199@gmail.com)
-**Dharmendra Kumar** — [malik.dharam@gmail.com](mailto:malik.dharam@gmail.com)
-
+ 
+**Ashish Raymajhi** (Lead) — [raymajhiashish@gmail.com](mailto:raymajhiashish@gmail.com)
+**Dhruv Rai** (Co-author) — [raidhruv199@gmail.com](mailto:raidhruv199@gmail.com)
+ 
 Sharda University, Uttar Pradesh, India
-
+ 
 ---
-
+ 
 ## License
-
+ 
 MIT License — free to use, modify, and distribute with attribution.
